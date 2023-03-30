@@ -1,5 +1,5 @@
-import { useState } from "react"
-import { Button,TextInput,View,StyleSheet } from "react-native"
+import { useState } from "react";
+import { Button, TextInput, View, StyleSheet } from "react-native";
 const AddTodo = ({submitHandler}) => {
     const [todo,setTodo]=useState('');
   return (
@@ -22,7 +22,12 @@ const styles=StyleSheet.create({
         margin:10,
         alignItems:'center',
         justifyContent:'center'
+    },
+    hello:{
+        margin:100,
+        color:'red'
     }
+
 })
 
 export default AddTodo
