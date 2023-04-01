@@ -9,7 +9,8 @@ const Header = () => {
 }
 const styles=StyleSheet.create({
     header:{
-        padding:20,
+        padding:25,
+        color: black,
         backgroundColor:'coral',
         marginBottom:10,
         borderBottomwidth:1,
