@@ -5,6 +5,7 @@ const AddTodo = ({submitHandler}) => {
   return (
     <View style={styles.button}>
         <View>
+            <Text>Welcome!</Text>
         <TextInput  placeholder='Write todos here!' style={styles.input} onChangeText={(e)=>{setTodo(e)}} />
         <Button title='Add Todo' onPress={()=>submitHandler(todo)} />
         </View>
